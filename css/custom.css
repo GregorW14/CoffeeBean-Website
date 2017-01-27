@@ -1,0 +1,269 @@
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
+}
+
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #4b6efc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #4b6efc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4b6efc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #5e91ff;
+}
+.navbar-inverse
+{
+	background-color:#3A5999;
+}
+
+html
+{
+	
+}
+
+body
+{
+	Arial, Helvetica, sans-serif;
+	color:#545456;
+	
+	/* background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+}
+
+h2
+{
+	text-align:center;
+}
+
+p
+{
+	font-size: 16px;
+}
+
+li.backgroundColour:hover
+{
+	background-color:#115898;
+	border-radius:25px;
+}
+
+.dropdown-header:hover
+{
+	background-color:#FFFFFF;
+}
+
+form
+{
+		background-color: #dfe3ee;
+		border-radius:25px;
+		padding:30px;
+		
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}
+
+.formHeader
+{
+	margin:0 auto;
+	width:40%;
+	text-align:center;
+	font-style: italic;
+	font-size:20px;
+	font-weight:bold;
+	color:#545456;
+	padding-bottom:2%;
+}
+
+.form-control
+{
+	border-radius: 25px;
+	font-weight:bold;
+}
+
+.form-content
+{
+	font-family: 'Architects Daughter', cursive;
+}
+
+table 
+{
+	/*font-family: "Times New Roman", Times, serif;*/
+	/*font-family: 'Architects Daughter', cursive;*/
+	font-size:18px;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.cheesyCoffeeQuotes
+{
+	font-size:32px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+#googleMap
+{
+		margin:0 auto;
+}
+
+.breadcrumbs
+{
+	text-size:38px;
+}
+
+.img-circle
+{
+	margin-left: 38%;
+}
+
+.col-lg-4
+{
+	margin:0 auto;
+}
+
+.alert
+{
+	margin-top:2%;
+}
+
+#profilePicture
+{
+	width:10%;
+	border-radius:200px;
+	margin-left:45%;
+}
+
+thead
+{
+	background-color:#3A5999;
+	color:#FFFFFF;
+}
+
+#customerProfileContainer 
+{
+	margin:0 auto;
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+
+#customerProfileImage 
+{
+  position: absolute;
+  left: -50px;
+  top: 0;
+}
+
+#customerProfileText 
+{
+  font-family: 'Architects Daughter', cursive;
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  left: 0px;
+  top: 30px;
+}
+
+#customerProfileTextNotWhite
+{
+  font-family: 'Architects Daughter', cursive;
+  z-index: 100;
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  left: 0px;
+  top: 360px;
+  text-align:left;
+}
+
+.noBackground
+{
+	background-color: #FFFFFF;
+	border-radius:0px;
+	padding:30px;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+}
+
+#ButtonHref
+{
+  display: block;
+  width: 200px;
+  height: 25px;
+  background: #337ab7;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #2e6da4;
+  color: white;
+  font-weight: bold;
+  line-height: 4px;
+}
+
+.tableFooter
+{
+	background-color:yellow;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.landingPageFont
+{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.landingPageBackgroundColour
+{
+	background-color:rgba(0,0,0,0.5);
+	border-radius:100px;
+}
+
+#test p h1 h2 h3{
+    opacity: 0;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+	color:white;
+}
